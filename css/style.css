@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(128, 128, 245),pink);
+    border-left: 15px double black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+#sello {
+    position: absolute;
+    top:0px;
+    left: 35px;
+}
+
+.navegacion {
+    padding: 25px;
+}
+
+nav{
+    position: absolute;
+    top:5px;
+    right: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #525150;
+    text-decoration: underline;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.foto-cv {
+    width: 29%;
+    display: block;
+    margin: 3% auto 0;
+}
+
+.principal p {
+    margin: 0 0 2%;
+    font-size: 20px;
+}
+
+.caja-secciones {
+    margin: 3.2% 0;
+    padding: 3.2% 0;
+}
+
+.titulo-seccion {
+    text-align: center;
+    font-family: 'Aboreto', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.secciones {
+    width: 940px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.puestos-laborales {
+    width: 940px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+.puestos-laborales ul {
+    margin: 0.7% 4.2% 4.2%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.subtitulo-seccion {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5.1%;
+}
+
+.botonFooter{
+    display: inline-block;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px 0;
+    font-size: 25px;
+    font-weight: bold;
+    cursor:pointer;
+    background: linear-gradient(to right,pink, rgb(128, 128, 245),pink);
+}
+
+#footer {
+    display: none;
+}
+
+.footer-caja {
+    width: 940px;
+    display: inline;
+    margin: 50px auto 20px;
+    text-align: center;
+}
+
+.footer-caja li {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 15px 10px;
+    margin: 20px 30px;
+    border-radius: 100%;
+}
+
+.footer-caja li:hover {
+    height: 53px;
+    width: 53px;
+    margin:0px 30px;
+
+}
+
+#volver {
+    display: none;
+}
